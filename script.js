@@ -1,13 +1,9 @@
 
-// Trabalhando com saída de dados.
+ const idade = 28;
 
-console.log("Fui criado no arquivo JavaScript.");
-
-// Tipos de dados primitivos.
-console.log("Hello!"); // string
-console.log(29.5)  // number 
-console.log(true, false); // boolean
-console.log(null); // null
-console.log(); // undefined
-// Tipos de dados primitivos. 
-
+ if (idade > 18){
+  console.log("Você é maior de idade")
+ } else {
+     console.log("Você é menor de idade")
+ };
+ 
