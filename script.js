@@ -53,8 +53,98 @@
 // i++
 // }
 
-const palavra = prompt("Digite uma palavra")
+// const palavra = prompt("Digite uma palavra")
 
-for(let i  = 1; i <= 5; i++){
-    console.log(palavra);
+// for(let i  = 1; i <= 5; i++){
+//     console.log(palavra);
+// }
+
+// const numero1 = Number(prompt("Digite dois numeros"))
+// const numero2 = Number(prompt("Digite dois numeros"))
+
+// if(numero1 > numero2){
+//     alert(numero1, "é maior")
+// } else{
+//     alert(numero2, "é maior")
+// }
+
+// const numero = Number(prompt("Digite um numero"))
+
+// if(numero > 0){
+//     alert("Positivo")
+// } else if(numero == 0){
+//     alert("Neutro")
+// } else{
+//     alert("Negativo")
+// }
+
+// const letra = prompt("Digite uma letra")
+
+// if(letra == "f" || letra == "F"){
+//     alert("Feminino")
+// }  else if(letra == "m" || letra == "M"){
+//     alert("Masculino")
+// } else {
+//     alert("erro")
+// }
+
+// const lista = [0, 1, 2, 3, 4, 5]
+
+// console.log(lista)
+
+// const lista = [
+//     [1, 2, 3],
+//     ["Alex", "Levi", "Mateus"],
+//     [true, false]
+// ]
+
+// console.log(lista[1][1]); ARRAY é UMA LISTA
+
+//  const pessoa = {
+//     nome: "Alex",
+//     idade: 29,
+//     altura: 1,75
+// }
+
+
+// const carro = {
+//     marca: "Fiat",
+//     modelo: "Uno",
+//     ano: 1997
+// }
+
+// console.log(carro.ano);
+
+// const lista = [
+//     ["Uva", "Maçã"],
+
+// [
+//    {
+//     nome: "Alex",
+//     idade: 29
+//    },
+//    {
+//      nome: "José",
+//      idade: 46
+//    },
+//    {
+//     nome: "Freitas",
+//     idade: 56
+//    }
+// ],
+// [0, 1, 2, 3]
+// ];
+
+// console.log(lista[1][2].nome);
+
+const nomes = ["Alex", "Levi", "Hebston", "Paulo", "Yasmim", "Marcos", "Wesley", "Mateus"];
+
+for(let index = 0; index < nomes.length; index++){
+    if(nomes[index] === "Hebston"){
+      console.log(nomes[index] + " é Mala!");
+    }
+} 
+
+for(let index = 0; index < nomes.length; index++){
+    console.log(nomes[index]);
 }
